@@ -1,0 +1,45 @@
+$module: 'navbar-view';
+
+.#{$module} {
+	background-color: #002532;
+	height: 60px;
+
+	.items {
+		display: inline-block;
+		float: right;
+		margin-right: 20px;
+
+		.item {
+			display: inline-block;
+
+			margin-right: 20px;
+			margin-top: 15px;
+			
+			font-size: 18px;
+			color: white;
+
+			&:last-child {
+				margin-right: 0px;
+			}
+		}
+	}
+
+	a {
+		color: white;
+		text-decoration: none;
+
+		&:hover {
+			font-weight: bold;
+			border-bottom: 2px solid #fcc301;
+		}
+	}
+
+	.logo {
+		display: inline-block;
+		float: left;
+		margin-top: 10px;
+		margin-left: 10px;
+
+		font-size: 25px;
+	}
+}

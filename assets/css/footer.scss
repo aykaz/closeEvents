@@ -1,0 +1,29 @@
+$module: 'footer';
+
+.#{$module} {
+	margin-top: 20px;
+	height: auto;
+
+	background-color: #002532;
+	color: white;
+
+	.social-links {
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+		i {
+			font-size: 40px;
+			margin-right: 10px;
+
+			&:hover {
+				color: #fcc301;
+			}
+		}
+	}
+	
+	.item {
+		margin-top: 20px;
+		border-bottom: 2px solid white;
+	}	
+}

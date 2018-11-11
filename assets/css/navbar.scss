@@ -21,25 +21,29 @@ $module: 'navbar-view';
 			&:last-child {
 				margin-right: 0px;
 			}
-		}
-	}
 
-	a {
-		color: white;
-		text-decoration: none;
+			a {
+				color: white;
+				text-decoration: none;
 
-		&:hover {
-			font-weight: bold;
-			border-bottom: 2px solid #fcc301;
+				&:hover {
+					font-weight: bold;
+					border-bottom: 2px solid #fcc301;
+				}
+			}
 		}
 	}
 
 	.logo {
 		display: inline-block;
 		float: left;
-		margin-top: 10px;
+		margin-top: 6px;
 		margin-left: 10px;
 
 		font-size: 25px;
+
+		img {
+			width: 200px;
+		}
 	}
 }

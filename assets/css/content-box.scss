@@ -16,5 +16,10 @@ $module: 'content-box';
         border: 1px solid lightgray;
         border-top: none;
         padding: 10px;
+
+        img {
+            width: 100%;
+            margin-bottom: 20px;
+        }
     }
 }

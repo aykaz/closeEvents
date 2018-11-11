@@ -5,11 +5,55 @@
 {% endblock %}
 
 {% block content %}
+    {{ include('slot/homeCarousel.html.twig') }}
+
     <div class="container">
         <h1>
             <strong>CloseEvents</strong>, los eventos cercanos a ti
         </h1>
 
-        {{ include('slot/homeCarousel.html.twig') }}
+        <br>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="content-box">
+                    <div class="content-box__header">
+                        Fiestas
+                    </div>
+
+                    <div class="content-box__body">
+                        <p class="text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, rem magnam enim cupiditate
+                            atque expedita? Molestiae animi natus, tempora nesciunt repellat temporibus excepturi quisquam
+                            perferendis mollitia provident! Dolor, sint, corporis.
+                        </p>
+
+                        <div class="text-center">
+                            <a href="{{ path('home') }}">Ver Fiestas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="content-box">
+                    <div class="content-box__header">
+                        Conciertos
+                    </div>
+
+                    <div class="content-box__body">
+                        <p class="text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, rem magnam enim cupiditate
+                            atque expedita? Molestiae animi natus, tempora nesciunt repellat temporibus excepturi quisquam
+                            perferendis mollitia provident! Dolor, sint, corporis.
+                        </p>
+
+                        <div class="text-center">
+                            <a href="{{ path('home') }}">Ver Conciertos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 {% endblock %}

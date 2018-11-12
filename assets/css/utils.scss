@@ -1,0 +1,16 @@
+// separators
+.separator {
+  display: block;
+  width: 100%;
+  height: 40px; // default
+
+  &--10 { height: 10px; }
+  &--15 { height: 15px; }
+  &--20 { height: 20px; }
+  &--25 { height: 15px; }
+  &--30 { height: 30px; }
+  &--35 { height: 15px; }
+  &--40 { height: 40px; }
+  &--50 { height: 50px; }
+  &--60 { height: 60px; }
+}

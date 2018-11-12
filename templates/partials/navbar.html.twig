@@ -1,4 +1,4 @@
-<nav class="navbar-view container-fluid">
+<nav class="container-fluid navbar-view d-none d-sm-block">
 	<div class="logo">
 		<a href="{{ path('home') }}">
 			<img src="{{ asset('images/logo.png') }}">
@@ -23,3 +23,37 @@
 		</li>
 	</ul>
 </nav>
+
+<nav class="container-fluid navbar-view-mobile d-block d-sm-none">
+	<div class="logo">
+		<a href="{{ path('home') }}">
+			<img src="{{ asset('images/logo.png') }}">
+		</a>
+	</div>
+
+	<div class="menu-button">
+		<a href="#" data-toggle="collapse" data-target="#mobile-navbar-body">
+			<i class="fas fa-bars"></i>
+		</a>
+	</div>
+</nav>
+
+<div id="mobile-navbar-body" class="collapse container-fluid navbar-view-mobile__links">
+    <ul class="items list-unstyled">
+        <li class="item">
+            <a href="{{ path('home') }}">Inicio</a>
+        </li>
+
+        <li class="item">
+            <a href="{{ path('home') }}">Fiestas</a>
+        </li>
+
+        <li class="item">
+            <a href="{{ path('home') }}">Conciertos</a>
+        </li>
+
+        <li class="item">
+            <a href="{{ path('home') }}">Contacto</a>
+        </li>
+    </ul>
+</div>

@@ -58,7 +58,7 @@ class ContactType extends AbstractType
                 'label' => 'Contactar',
 
                 'attr' => [
-                    'class' => 'form-group btn btn-primary btn-block'
+                    'class' => 'form-group custom-btn custom-btn__full-width'
                 ]
             ])
         ;

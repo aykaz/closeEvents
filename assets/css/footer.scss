@@ -2,18 +2,18 @@ $module: 'footer';
 
 .#{$module} {
 	margin-top: 20px;
-	height: auto;
+	height: 80px;
 
 	background-color: #002532;
 	color: white;
 
 	.social-links {
 		text-align: center;
-		margin-top: 10px;
-		margin-bottom: 10px;
 
 		i {
 			font-size: 40px;
+
+			margin-top: 20px;
 			margin-right: 10px;
 
 			&:hover {
@@ -21,9 +21,9 @@ $module: 'footer';
 			}
 		}
 	}
-	
+
 	.item {
 		margin-top: 20px;
 		border-bottom: 2px solid white;
-	}	
+	}
 }
